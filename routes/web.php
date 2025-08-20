@@ -6,9 +6,9 @@ Route::get('/', function () {
     return view('welcome');
 })->name('welcome');
 
-Route::get('/artists', function () {
-    return view('guest.artists');
-})->name('artists');
+Route::get('/songs', function () {
+    return view('guest.songs');
+})->name('songs');
 
 Route::get('/negotiables', function () {
     return view('guest.negotiables');

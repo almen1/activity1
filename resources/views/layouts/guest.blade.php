@@ -62,7 +62,7 @@
                 
                 <div class="flex items-center justify-center space-x-12 flex-1">
                     <a href="{{ route('welcome') }}" class="nav-link text-stone-500 hover:text-white text-sm font-thin">Home</a>
-                    <a href="{{ route('artists') }}" class="nav-link text-stone-500 hover:text-white text-sm">Artists</a>
+                    <a href="{{ route('songs') }}" class="nav-link text-stone-500 hover:text-white text-sm">Songs</a>
                     <a href="{{ route('negotiables') }}" class="nav-link text-stone-500 hover:text-white text-sm">Non-Negotiables</a>
                     <a href="{{ route('events') }}" class="nav-link text-stone-500 hover:text-white text-sm">Events</a>
                     <a href="{{ route('contact') }}" class="nav-link text-stone-500 hover:text-white text-sm">Contact</a>
@@ -101,7 +101,7 @@
                         <h3 class="font-semibold text-md mb-4">Quick Links</h3>
                         <div class="flex flex-col space-y-2 text-sm">
                             <a href="{{ route('welcome') }}" class="nav-link text-stone-500 hover:text-white text-sm font-thin">Home</a>
-                            <a href="{{ route('artists') }}" class="nav-link text-stone-500 hover:text-white text-sm font-thin">Artists</a>
+                            <a href="{{ route('songs') }}" class="nav-link text-stone-500 hover:text-white text-sm font-thin">Songs</a>
                             <a href="{{ route('negotiables') }}" class="nav-link text-stone-500 hover:text-white text-sm font-thin">Non-Negotiables</a>
                             <a href="{{ route('events') }}" class="nav-link text-stone-500 hover:text-white text-sm font-thin">Events</a>
                             <a href="{{ route('contact') }}" class="nav-link text-stone-500 hover:text-white text-sm font-thin">Contact</a>
