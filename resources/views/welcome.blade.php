@@ -1,35 +1,59 @@
-<x-guest-layout>
-    <section class="py-32">
-        <div class="max-w-full mx-auto px-16">
-            <div class="grid grid-cols-2 gap-24 items-center">
-                <div class="space-y-12">
-                    <div class="space-y-4">
-                        <h2 class="text-gray-400 text-xs tracking-widest uppercase font-light">FEATURED ARTIST</h2>
-                        <h1 class="text-6xl font-extrabold text-white leading-tight">seven</h1>
-                    </div>
-                    <div class="flex items-center space-x-6">
-                        <button class="w-10 h-10 border border-neutral-700 flex items-center justify-center hover:bg-neutral-800 transition-all duration-300 group">
-                            <i class="ph ph-caret-left text-gray-400 group-hover:text-white transition-colors"></i>
-                        </button>
-                        <button class="w-10 h-10 border border-neutral-700 flex items-center justify-center hover:bg-neutral-800 transition-all duration-300 group">
-                            <i class="ph ph-caret-right text-gray-400 group-hover:text-white transition-colors"></i>
-                        </button>
-                        <span class="text-sm text-gray-400 tracking-wide">01 / 04</span>
+<x-guest-layout class="font-['Liberation_Sans']">
+    {{-- MATCHA HAHAHAHAHHAHAHA --}}
+    <section class="w-screen h-[90vh] px-8 relative">
+        <div class="absolute inset-0 flex items-center justify-center">
+            <img src="/matcha.png" alt="Matcha Background" class="w-96 h-auto object-cover transform rotate-10 opacity-75">
+        </div>
+        <div class="flex flex-col items-center justify-center h-full relative z-10">
+            <h1 class="text-[64px] font-extrabold text-center"><span class="text-white">no huzz,</span> <span class="text-stone-500">labubus,</span> <span class="bg-white text-black px-2">he says <span class="font-[chiaroscura] font-regular italic">clairo</span> saved him</span> <span class="text-white">but he only</span> <span class="text-stone-500">knows two songs.</span> <span class="text-white">bro's not deep,</span> <span class="bg-white text-black px-2">he's just in his performative male era</span> <span class="text-white">with a matcha in hand,</span> <span class="text-stone-500">tote bag swinging,</span> <span class="bg-white text-black px-2">and a book he's<span class="font-[chiaroscura] font-regular italic"> never </span>opened.</span></h1>
+        </div>
+    </section>
+
+    {{-- CLAIRO MWHHWHAHAHHAHA --}}
+    <section class="w-screen h-[90vh] px-8 my-8">
+        <div class="flex flex-col items-start justify-center h-full">
+            <h2 class="text-[96px] font-thin text-white">performative's <span class="font-[chiaroscura] text-[120px] font-regular italic">choice</span></h2>
+            <div class="flex items-center space-x-8">
+                <div class="text-black">
+                    <div class="w-[600px] mx-auto bg-white p-8">                        
+                        <div class="">
+                            <img src="/beabadoobee.jpg" alt="Beabadoobee" class="w-full h-auto object-cover mb-6">
+                        </div>
+                        
+                        <div class="space-y-2">
+                            <p class="text-sm text-stone-500">2024 RELEASE</p>
+                            <h3 class="text-3xl font-bold">beaches - beabadoobee</h3>
+                            <p class="text-sm text-stone-500">the performative's choice</p>
+                        </div>
                     </div>
                 </div>
-                
-                <div class="relative group">
-                    <img src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" 
-                         alt="Beabadoobee" 
-                         class="w-full h-[500px] object-cover transition-transform duration-700 group-hover:scale-105">
-                    <button class="absolute bottom-6 left-6 bg-white text-neutral-900 px-6 py-3 text-sm font-medium flex items-center space-x-3 hover:bg-gray-100 transition-all duration-300 shadow-lg">
-                        <span>LISTEN NOW</span>
-                        <i class="ph ph-play text-xs"></i>
-                    </button>
+                <div class="text-black">
+                    <div class="w-[600px] mx-auto bg-white p-8">                        
+                        <div class="">
+                            <img src="/laufey.jpg" alt="Laufey" class="w-full h-auto object-cover mb-6">
+                        </div>
+                        
+                        <div class="space-y-2">
+                            <p class="text-sm text-stone-500">2022 RELEASE</p>
+                            <h3 class="text-3xl font-bold">Fragile - Laufey</h3>
+                            <p class="text-sm text-stone-500">the performative's choice</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-black">
+                    <div class="w-[600px] mx-auto bg-white p-8">                        
+                        <div class="">
+                            <img src="/clairo.jpg" alt="Clairo" class="w-full h-auto object-cover mb-6">
+                        </div>
+                        
+                        <div class="space-y-2">
+                            <p class="text-sm text-stone-500">2019 RELEASE</p>
+                            <h3 class="text-3xl font-bold">Bags - Clairo (Original Mix)</h3>
+                            <p class="text-sm text-stone-500">the performative's choice</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-
-
 </x-guest-layout>

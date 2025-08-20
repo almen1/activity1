@@ -15,6 +15,7 @@ export default {
         extend: {
             fontFamily: {
                 sans: ['Liberation Sans', ...defaultTheme.fontFamily.sans],
+                chiaroscura: ['Chiaroscura TRIAL', ...defaultTheme.fontFamily.sans],
             },
         },
     },

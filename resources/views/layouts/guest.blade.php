@@ -9,6 +9,7 @@
 
         <!-- Fonts -->
         <link href="https://fonts.cdnfonts.com/css/liberation-sans" rel="stylesheet">
+        <link href="https://fonts.cdnfonts.com/css/chiaroscura-trial" rel="stylesheet">
 
         <!-- Scripts -->
         <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
@@ -19,6 +20,7 @@
 
         <style>
             @import url('https://fonts.cdnfonts.com/css/liberation-sans');
+            @import url('https://fonts.cdnfonts.com/css/chiaroscura-trial');
             
             .nav-link {
                 position: relative;
@@ -43,25 +45,25 @@
     </head>
     <body class="text-white antialiased bg-black overflow-x-hidden font-['Liberation_Sans']">
         {{-- NAVBAR --}}
-        <nav class="px-8 py-4">
+        <nav class="px-8 py-4 border-b border-white">
             <div class="max-w-full mx-auto flex items-center justify-between">
-                <div class="flex items-center justify-start space-x-3 flex-1">
+                <div class="flex items-center justify-start flex-1">
                     <span class="text-md font-semibold text-white">Nonchalant.</span>
                 </div>
                 
                 <div class="flex items-center justify-center space-x-12 flex-1">
-                    <a href="{{ route('welcome') }}" class="nav-link text-white hover:text-stone-500 text-sm font-thin">Home</a>
-                    <a href="{{ route('about') }}" class="nav-link text-white hover:text-stone-500 text-sm">Artists</a>
-                    <a href="{{ route('gallery') }}" class="nav-link text-white hover:text-stone-500 text-sm">Non-Negotiables</a>
-                    <a href="{{ route('certifications') }}" class="nav-link text-white hover:text-stone-500 text-sm">Events</a>
-                    <a href="{{ route('contact') }}" class="nav-link text-white hover:text-stone-500 text-sm">Contact</a>
+                    <a href="{{ route('welcome') }}" class="nav-link text-stone-500 hover:text-white text-sm font-thin">Home</a>
+                    <a href="{{ route('welcome') }}" class="nav-link text-stone-500 hover:text-white text-sm">Artists</a>
+                    <a href="{{ route('gallery') }}" class="nav-link text-stone-500 hover:text-white text-sm">Non-Negotiables</a>
+                    <a href="{{ route('events') }}" class="nav-link text-stone-500 hover:text-white text-sm">Events</a>
+                    <a href="{{ route('contact') }}" class="nav-link text-stone-500 hover:text-white text-sm">Contact</a>
                 </div>
                 
                 <div class="flex items-center justify-end space-x-4 flex-1">
                     @auth
                         <a href="{{ url('/dashboard') }}" class="bg-white text-black px-8 py-3 text-sm font-medium hover:bg-gray-100 transition-all duration-300">Dashboard</a>
                     @else
-                        <a href="{{ route('register') }}" class="text-white hover:text-stone-500 transition-colors text-sm nav-link font-medium">Register</a>
+                        <a href="{{ route('register') }}" class="text-stone-500 hover:text-white transition-colors text-sm nav-link font-medium">Register</a>
                         <a href="{{ route('login') }}" class="bg-white text-neutral-900 px-8 py-3 text-sm font-medium hover:bg-zinc-950 hover:text-white transition-all duration-300">Login
                             <span>                    
                                 <i class="ph ph-arrow-up-right"></i>
@@ -81,19 +83,19 @@
                         <div class="flex items-center space-x-3">
                             <span class="font-semibold text-md text-white">Nonchalant.</span>
                         </div>
-                        <p class="text-stone-500 text-sm leading-relaxed">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        <p class="text-stone-500 text-sm leading-relaxed w-128">
+                            Curating the art of effortless effort, one tote bag, matcha latte, and underlined feminist book at a time.
                         </p>
                     </div>
                     
                     <div class="flex flex-col space-y-6">
                         <h3 class="font-semibold text-md mb-4">Quick Links</h3>
                         <div class="flex flex-col space-y-2 text-sm">
-                            <a href="{{ route('welcome') }}" class="nav-link text-white hover:text-stone-500 text-sm font-thin">Home</a>
-                            <a href="{{ route('about') }}" class="nav-link text-white hover:text-stone-500 text-sm font-thin">Artists</a>
-                            <a href="{{ route('gallery') }}" class="nav-link text-white hover:text-stone-500 text-sm font-thin">Non-Negotiables</a>
-                            <a href="{{ route('certifications') }}" class="nav-link text-white hover:text-stone-500 text-sm font-thin">Events</a>
-                            <a href="{{ route('contact') }}" class="nav-link text-white hover:text-stone-500 text-sm font-thin">Contact</a>
+                            <a href="{{ route('welcome') }}" class="nav-link text-stone-500 hover:text-white text-sm font-thin">Home</a>
+                            <a href="{{ route('welcome') }}" class="nav-link text-stone-500 hover:text-white text-sm font-thin">Artists</a>
+                            <a href="{{ route('gallery') }}" class="nav-link text-stone-500 hover:text-white text-sm font-thin">Non-Negotiables</a>
+                            <a href="{{ route('events') }}" class="nav-link text-stone-500 hover:text-white text-sm font-thin">Events</a>
+                            <a href="{{ route('contact') }}" class="nav-link text-stone-500 hover:text-white text-sm font-thin">Contact</a>
                         </div>
                     </div>
                     
@@ -116,10 +118,10 @@
                     </div>
                 </div>
                 
-                <div class="text-black bg-white py-2 px-8">
+                <div class="text-white py-2 px-8 border-t border-white">
                     <div class="flex justify-end items-center text-white font-bold">
                         <span class="text-stone-500 px-4 font-medium text-sm">All rights reserved.</span>
-                        <p class="font-semibold text-md text-black">© 2025 Nonchalant. </p>
+                        <p class="font-semibold text-md">© 2025 Nonchalant. </p>
                     </div>
                 </div>
             </div>

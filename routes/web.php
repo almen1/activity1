@@ -6,17 +6,13 @@ Route::get('/', function () {
     return view('welcome');
 })->name('welcome');
 
-Route::get('/about', function () {
-    return view('guest.about');
-})->name('about');
-
 Route::get('/gallery', function () {
     return view('guest.gallery');
 })->name('gallery');
 
-Route::get('/certifications', function () {
-    return view('guest.certifications');
-})->name('certifications');
+Route::get('/events', function () {
+    return view('guest.events');
+})->name('events');
 
 Route::get('/contact', function () {
     return view('guest.contact');
