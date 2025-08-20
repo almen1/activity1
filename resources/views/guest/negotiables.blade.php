@@ -1,6 +1,6 @@
 <x-guest-layout class="font-['Liberation_Sans']">
 
-    {{-- contact form--}}
+    {{-- start pack nila--}}
     <section class="w-screen h-[90vh] px-8 relative">
         
     </section>

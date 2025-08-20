@@ -41,6 +41,15 @@
             .nav-link:hover::after {
                 width: 100%;
             }
+
+            .scrollbar-hide {
+                -ms-overflow-style: none;
+                scrollbar-width: none;
+            }
+            
+            .scrollbar-hide::-webkit-scrollbar {
+                display: none;
+            }
         </style>
     </head>
     <body class="text-white antialiased bg-black overflow-x-hidden font-['Liberation_Sans']">
@@ -53,8 +62,8 @@
                 
                 <div class="flex items-center justify-center space-x-12 flex-1">
                     <a href="{{ route('welcome') }}" class="nav-link text-stone-500 hover:text-white text-sm font-thin">Home</a>
-                    <a href="{{ route('welcome') }}" class="nav-link text-stone-500 hover:text-white text-sm">Artists</a>
-                    <a href="{{ route('gallery') }}" class="nav-link text-stone-500 hover:text-white text-sm">Non-Negotiables</a>
+                    <a href="{{ route('artists') }}" class="nav-link text-stone-500 hover:text-white text-sm">Artists</a>
+                    <a href="{{ route('negotiables') }}" class="nav-link text-stone-500 hover:text-white text-sm">Non-Negotiables</a>
                     <a href="{{ route('events') }}" class="nav-link text-stone-500 hover:text-white text-sm">Events</a>
                     <a href="{{ route('contact') }}" class="nav-link text-stone-500 hover:text-white text-sm">Contact</a>
                 </div>
@@ -92,8 +101,8 @@
                         <h3 class="font-semibold text-md mb-4">Quick Links</h3>
                         <div class="flex flex-col space-y-2 text-sm">
                             <a href="{{ route('welcome') }}" class="nav-link text-stone-500 hover:text-white text-sm font-thin">Home</a>
-                            <a href="{{ route('welcome') }}" class="nav-link text-stone-500 hover:text-white text-sm font-thin">Artists</a>
-                            <a href="{{ route('gallery') }}" class="nav-link text-stone-500 hover:text-white text-sm font-thin">Non-Negotiables</a>
+                            <a href="{{ route('artists') }}" class="nav-link text-stone-500 hover:text-white text-sm font-thin">Artists</a>
+                            <a href="{{ route('negotiables') }}" class="nav-link text-stone-500 hover:text-white text-sm font-thin">Non-Negotiables</a>
                             <a href="{{ route('events') }}" class="nav-link text-stone-500 hover:text-white text-sm font-thin">Events</a>
                             <a href="{{ route('contact') }}" class="nav-link text-stone-500 hover:text-white text-sm font-thin">Contact</a>
                         </div>
