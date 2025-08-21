@@ -22,6 +22,7 @@ Route::get('/contact', function () {
     return view('guest.contact');
 })->name('contact');
 
+
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),
@@ -30,4 +31,17 @@ Route::middleware([
     Route::get('/dashboard', function () {
         return view('dashboard');
     })->name('dashboard');
+
+    Route::get('/adminSongs', function () {
+        return view('admin.adminSongs');
+    })->name('adsongs');
+
+    Route::get('/adminUsers', function () {
+        return view('admin.adminUsers');
+    })->name('adusers');
+
+    Route::get('/adminEvents', function () {
+        return view('admin.adminEvents');
+    })->name('adevents');
+
 });

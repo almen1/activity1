@@ -13,7 +13,7 @@
                                 <div class="space-y-2">
                                     <p class="text-sm text-stone-500">2019 RELEASE</p>
                                     <h3 class="text-3xl font-bold">Bags - Clairo</h3>
-                                    <p class="text-sm text-stone-500">the performative's choice</p>
+                                    <p class="text-sm text-stone-500">IMMUNITY</p>
                                 </div>
                             </div>
                         </div>
@@ -27,7 +27,7 @@
                                 <div class="space-y-2">
                                     <p class="text-sm text-stone-500">2023 RELEASE</p>
                                     <h3 class="text-3xl font-bold">Glue Song - beabadoobee</h3>
-                                    <p class="text-sm text-stone-500">the performative's choice</p>
+                                    <p class="text-sm text-stone-500">BEATOPIA</p>
                                 </div>
                             </div>
                         </div>
@@ -41,7 +41,7 @@
                                 <div class="space-y-2">
                                     <p class="text-sm text-stone-500">2022 RELEASE</p>
                                     <h3 class="text-3xl font-bold">From The Start - Laufey</h3>
-                                    <p class="text-sm text-stone-500">the performative's choice</p>
+                                    <p class="text-sm text-stone-500">EVERYTHING I KNOW ABOUT LOVE</p>
                                 </div>
                             </div>
                         </div>
@@ -55,7 +55,7 @@
                                 <div class="space-y-2">
                                     <p class="text-sm text-stone-500">2021 RELEASE</p>
                                     <h3 class="text-3xl font-bold">Amoeba - Clairo</h3>
-                                    <p class="text-sm text-stone-500">the performative's choice</p>
+                                    <p class="text-sm text-stone-500">SLING</p>
                                 </div>
                             </div>
                         </div>
@@ -69,7 +69,7 @@
                                 <div class="space-y-2">
                                     <p class="text-sm text-stone-500">2021 RELEASE</p>
                                     <h3 class="text-3xl font-bold">Last Day On Earth - beabadoobee</h3>
-                                    <p class="text-sm text-stone-500">the performative's choice</p>
+                                    <p class="text-sm text-stone-500">FAKE IT FLOWERS</p>
                                 </div>
                             </div>
                         </div>
@@ -83,7 +83,7 @@
                                 <div class="space-y-2">
                                     <p class="text-sm text-stone-500">2019 RELEASE</p>
                                     <h3 class="text-3xl font-bold">Pretty Girl - Clairo</h3>
-                                    <p class="text-sm text-stone-500">the performative's choice</p>
+                                    <p class="text-sm text-stone-500">IMMUNITY</p>
                                 </div>
                             </div>
                         </div>
@@ -99,7 +99,7 @@
                                 <div class="space-y-2">
                                     <p class="text-sm text-stone-500">2024 RELEASE</p>
                                     <h3 class="text-3xl font-bold">beaches - beabadoobee</h3>
-                                    <p class="text-sm text-stone-500">the performative's choice</p>
+                                    <p class="text-sm text-stone-500">BEATOPIA</p>
                                 </div>
                             </div>
                         </div>
@@ -113,7 +113,7 @@
                                 <div class="space-y-2">
                                     <p class="text-sm text-stone-500">2020 RELEASE</p>
                                     <h3 class="text-3xl font-bold">Sofia - Clairo</h3>
-                                    <p class="text-sm text-stone-500">the performative's choice</p>
+                                    <p class="text-sm text-stone-500">IMMUNITY</p>
                                 </div>
                             </div>
                         </div>
@@ -127,7 +127,7 @@
                                 <div class="space-y-2">
                                     <p class="text-sm text-stone-500">2022 RELEASE</p>
                                     <h3 class="text-3xl font-bold">Talk - beabadoobee</h3>
-                                    <p class="text-sm text-stone-500">the performative's choice</p>
+                                    <p class="text-sm text-stone-500">BEATOPIA</p>
                                 </div>
                             </div>
                         </div>
@@ -141,7 +141,7 @@
                                 <div class="space-y-2">
                                     <p class="text-sm text-stone-500">2023 RELEASE</p>
                                     <h3 class="text-3xl font-bold">Promise - Laufey</h3>
-                                    <p class="text-sm text-stone-500">the performative's choice</p>
+                                    <p class="text-sm text-stone-500">BEWITCHED</p>
                                 </div>
                             </div>
                         </div>
@@ -155,7 +155,7 @@
                                 <div class="space-y-2">
                                     <p class="text-sm text-stone-500">2022 RELEASE</p>
                                     <h3 class="text-3xl font-bold">Fragile - Laufey</h3>
-                                    <p class="text-sm text-stone-500">the performative's choice</p>
+                                    <p class="text-sm text-stone-500">EVERYTHING I KNOW ABOUT LOVE</p>
                                 </div>
                             </div>
                         </div>
@@ -169,7 +169,7 @@
                                 <div class="space-y-2">
                                     <p class="text-sm text-stone-500">2021 RELEASE</p>
                                     <h3 class="text-3xl font-bold">Blouse - Clairo</h3>
-                                    <p class="text-sm text-stone-500">the performative's choice</p>
+                                    <p class="text-sm text-stone-500">SLING</p>
                                 </div>
                             </div>
                         </div>
